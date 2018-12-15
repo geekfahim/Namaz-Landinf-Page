@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css?family=Dhurjati|Kanit:700");
+body {
+  background-color: #f9f9f9; }
+
+.main-content .sidebar, .verse, .sura, .quotes, .section-white {
+  box-shadow: 2px 2px 2px #ccc;
+  transition: all 0.2s; }
+
+.white-place {
+  padding: 50px;
+  background-color: #fff; }
+
+.verse .off-place, .sura .off-place, .quotes .off-place, .section-white .off-place, .donation-need {
+  padding: 20px;
+  background-color: #f9f9f9; }
+
+.welcome:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.10;
+  background-image: linear-gradient(127deg, #3680D6 0%, #4B0FBF 91%);
+  z-index: 0;
+  left: 0;
+  top: 0; }
+
+.m-title {
+  font-family: "Dhurjati", sans-serif;
+  font-size: 2rem; }
+
+.menu-bg {
+  background: rgba(0, 0, 0, 0.3); }
+
+.logo {
+  width: 100px; }
+
+.btn-outline-light {
+  border-radius: 25px;
+  font-weight: bolder;
+  background: linear-gradient(127deg, #3680D6 0%, #7741e2 91%); }
+
+.btn-outline-light:hover {
+  color: #e7e7e7; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder; }
+
+nav .nav-item {
+  position: relative; }
+
+/* left-right-full */
+nav .nav-item a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #ffea00;
+  -webkit-transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+
+.nav-item a:hover:after {
+  width: 100%; }
+
+.slider .welcome {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-image: url("../images/bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff; }
+  .slider .welcome .card {
+    border: none; }
+
+.slider h1 {
+  text-shadow: 2px 2px #000; }
+
+.bg-prayer {
+  background-color: rgba(0, 0, 0, 0.5); }
+  .bg-prayer .card-header {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: bolder;
+    background-color: rgba(163, 157, 157, 0.5); }
+  .bg-prayer .card-title {
+    background: linear-gradient(127deg, #3680D6 0%, #7741e2 91%);
+    padding: 10px; }
+
+.prayer-times h3 {
+  background: #8360c3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2ebf91, #8360c3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 5px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2rem; }
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px; }
+
+.features {
+  position: relative;
+  background-image: url("../images/bg-pattern.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px; }
+  .features .card {
+    margin-top: 20px;
+    border-bottom: 5px solid #4B0FBF; }
+  .features .card:hover {
+    box-shadow: 5px 5px 5px #ccc;
+    transform: translateY(-5px);
+    transition: 0.2s all;
+    cursor: pointer;
+    border-bottom: 5px solid #ffea00; }
+  .features .card:hover .card-title {
+    color: #4B0FBF; }
+  .features .img-feature {
+    width: 200px;
+    margin-bottom: 10px; }
+  .features .card-title {
+    font-family: "Dhurjati", sans-serif;
+    font-size: 30px; }
+  .features .card-body {
+    text-align: center; }
+
+.flower:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 200px;
+  width: 200px;
+  background: url(../images/flower.png) no-repeat scroll center center;
+  background-size: auto auto;
+  background-size: cover;
+  z-index: 1;
+  -webkit-transform: translate(-40%, -35%);
+  -moz-transform: translate(-40%, -35%);
+  -ms-transform: translate(-40%, -35%);
+  -o-transform: translate(-40%, -35%);
+  transform: translate(-40%, -35%); }
+
+.title h2 {
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 5px; }
+
+.main-content {
+  position: relative; }
+  .main-content .sidebar {
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-top: 10px solid #4B0FBF; }
+
+.sidebar .nav-item {
+  border-bottom: 1px solid #dddddd; }
+  .sidebar .nav-item .nav-link:hover {
+    color: #fff; }
+
+.sidebar .nav-item:hover {
+  background: linear-gradient(to right, #2ebf91, #8360c3); }
+
+.verse, .sura, .quotes, .section-white {
+  background-color: #fff;
+  padding: 50px;
+  border-top: 5px solid #4B0FBF; }
+  .verse .off-place, .sura .off-place, .quotes .off-place, .section-white .off-place {
+    position: relative;
+    font-size: 20px; }
+
+.copy {
+  margin-top: 15px; }
+
+.btn-copy {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.off-place .copy:hover.btn-copy {
+  display: visible;
+  cursor: pointer; }
+
+.btn-sura {
+  border-top: 2px solid #4B0FBF;
+  background: #fff;
+  color: #333;
+  box-shadow: 2px 2px 2px #ccc;
+  margin: 5px;
+  padding: 10px 50px 10px 50px;
+  transition: 0.5s all;
+  font-weight: bold; }
+
+.btn-sura:hover {
+  background: linear-gradient(127deg, #3680D6 0%, #7741e2 91%);
+  color: #fff; }
+
+.white-place {
+  font-size: 20px; }
+
+.box-quotes {
+  border-top: 2px solid #8360c3;
+  background: #fff;
+  color: #333;
+  box-shadow: 2px 2px 2px #ccc;
+  width: 40%;
+  margin: 5px;
+  transition: 0.5s all;
+  font-weight: bold; }
+
+.pillar {
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-image: url("../images/bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 80px;
+  position: relative; }
+  .pillar h5 {
+    font-family: "Dhurjati", sans-serif;
+    font-size: 30px; }
+
+.pillar:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-image: linear-gradient(127deg, #333 0%, #000 91%);
+  z-index: 0;
+  left: 0;
+  top: 0; }
+
+.img-pillar {
+  width: 150px;
+  border: 1px solid #fff;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: rgba(255, 152, 34, 0.5); }
+
+.sponsor {
+  background: #FFE000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #799F0C, #FFE000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #799F0C, #FFE000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-size: cover;
+  margin-bottom: 10px; }
+
+.btn-green {
+  background: -moz-linear-gradient(45deg, #B7CF4F, #298520);
+  background: -webkit-linear-gradient(45deg, #B7CF4F, #298520);
+  background: linear-gradient(45deg, #B7CF4F, #298520); }
+
+.btn-white {
+  background-color: #f9f9f9;
+  box-shadow: 2px #ccc;
+  padding: 10px;
+  color: #298520; }
+
+.donation-need {
+  /* Slider */ }
+  .donation-need h2 {
+    text-align: center;
+    padding: 20px; }
+  .donation-need .slick-slide {
+    margin: 0px 20px; }
+  .donation-need .slick-slide img {
+    width: 100%; }
+  .donation-need .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent; }
+  .donation-need .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0; }
+  .donation-need .slick-list:focus {
+    outline: none; }
+  .donation-need .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand; }
+  .donation-need .slick-slider .slick-track,
+  .donation-need .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  .donation-need .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block; }
+  .donation-need .slick-track:before,
+  .donation-need .slick-track:after {
+    display: table;
+    content: ''; }
+  .donation-need .slick-track:after {
+    clear: both; }
+  .donation-need .slick-loading .slick-track {
+    visibility: hidden; }
+  .donation-need .slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px; }
+  .donation-need [dir='rtl'] .slick-slide {
+    float: right; }
+  .donation-need .slick-slide img {
+    display: block; }
+  .donation-need .slick-slide.slick-loading img {
+    display: none; }
+  .donation-need .slick-slide.dragging img {
+    pointer-events: none; }
+  .donation-need .slick-initialized .slick-slide {
+    display: block; }
+  .donation-need .slick-loading .slick-slide {
+    visibility: hidden; }
+  .donation-need .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent; }
+  .donation-need .slick-arrow.slick-hidden {
+    display: none; }
+
+.footer {
+  margin-top: 500px; }
+
+/*# sourceMappingURL=style.css.map */
